@@ -88,7 +88,7 @@ contract Spartan is ERC20Interface, Owned, SafeMath {
     // ------------------------------------------------------------------------
     constructor() public {
         symbol = "PLTX";
-        name = "PlanetX token by planetx.finane";
+        name = "PlanetX token by planetx.finance";
         decimals = 18;
         _totalSupply = 777777777000000000000000000;
         balances[0xdd1EFca52e6ffc6490B715196D184c725F6f9102] = _totalSupply;
